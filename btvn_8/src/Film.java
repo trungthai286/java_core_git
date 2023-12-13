@@ -12,28 +12,9 @@ public class Film {
         this.daoDien = daoDien;
         this.ngayCongChieu = ngayCongChieu;
     }
-
-    public int getId() {
-        return id;
-    }
-
     public String getTieuDe() {
         return tieuDe;
     }
-
-    public String getTheLoai() {
-        return theLoai;
-    }
-
-    public String getDaoDien() {
-        return daoDien;
-    }
-
-    public String getNgayCongChieu() {
-        return ngayCongChieu;
-
-    }
-
     @Override
     public String toString() {
         return "Film: (" +
